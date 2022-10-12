@@ -15,7 +15,7 @@ const Navbar = () => {
       <li class="nav-item">
         <a
           class="nav-link"
-          href="https://github.com/NuapteBuna/eduvision"
+          href="https://github.com/Sbn6/AirPlanes"
           target={"_blank"}
         >
           GitHub
