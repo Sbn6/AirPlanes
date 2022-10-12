@@ -3,9 +3,6 @@ import { useHistory } from "react-router-dom";
 const Home = () => {
   const history = useHistory();
 
-  const handleClick = () => {
-    history.push("/learn-setup");
-  };
 
   return (
     <div className="home">
@@ -18,7 +15,7 @@ const Home = () => {
         type="button"
         class="btn btn-primary position-absolute start-50 translate-middle btn-lg"
         style={{ position: "fixed", bottom: "80px" }}
-        onClick={handleClick}
+        onClick={()=>history.push('/legends')}
       >
         x
       </button>

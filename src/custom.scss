@@ -1,4 +1,4 @@
-$primary: #3dbfdacc;
+$primary: #3ec0dacc;
 $success: #02748a;
 body {
   background: radial-gradient(ellipse at bottom, #1eacc2 0%, #46494e 100%);
@@ -61,8 +61,8 @@ $display-font-sizes: (
 @import "~bootstrap/scss/bootstrap.scss";
 
 .card {
-  background-color: #181a1b;
-  border-color: #272827;
+  background:radial-gradient(ellipse at bottom, #398999cc 0%, #7ab4c5 100%);
+  border-color: #4f565c;
   color: #d1cdc7;
 }
 
