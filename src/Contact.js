@@ -25,15 +25,12 @@ const Contact = () => {
           CONTACT
         </h1>
       </font>
-      <card>
-        
-      </card>
+      <div className="position-absolute  start-50 translate-middle" style={{marginTop:"30rem",textAlign:"justify", fontFamily:"", color:"white"}} >
+        <p>Mincă Bianca - <b>bianca.mihaela.minca@lttvb.ro</b></p> 
+        <p>Toader Șerban - <b>serban.toader@lttvb.ro</b></p>
+        <p>Bucău Andrei - <b>andrei.bucau@lttvb.ro</b></p>
+      </div>
     </div>
   );
-};
-{
-  /*
-    sbn
-*/
 }
 export default Contact;

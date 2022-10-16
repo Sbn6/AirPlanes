@@ -3,21 +3,13 @@ import Navbar from "./Navbar";
 import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
-import Legends from "./Legends";
+import Legend from "./Legends";
+import History1 from "./History1";
+import Helicopter from "./Helicopter";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
-  const style = {
-    textAlign: "center",
-    padding: "20px",
-    position: "fixed",
-    left: "0",
-    bottom: "0",
-    height: "60px",
-    width: "100%",
-    color: "#e6e6e6",
-    userSelect: "none",
-  };
+  
   return (
     <Router>
       <div className="App">
@@ -28,10 +20,12 @@ function App() {
             <Route exact path="/about" component={About} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/about" component={About} />
-            <Route exact path="/legends" component={Legends} />
+            <Route exact path="/legend" component={Legend} />
+            <Route exact path="/history" component={History1} />
+            <Route exact path="/helicopter" component={Helicopter} />
+
           </Switch>
         </div>
-        <div style={style}>&copy; 2022</div>
       </div>
     </Router>
   );
