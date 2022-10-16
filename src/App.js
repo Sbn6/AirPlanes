@@ -6,7 +6,7 @@ import Contact from "./Contact";
 import Legend from "./Legends";
 import History1 from "./History1";
 import Helicopter from "./Helicopter";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   

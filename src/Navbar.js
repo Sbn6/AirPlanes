@@ -1,4 +1,5 @@
 import { ReactComponent as Logo } from "./logo2.svg";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
@@ -38,9 +39,9 @@ const Navbar = () => {
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/contact">
+          <Link to="/contact" class="nav-link">
             Contact
-          </a>
+          </Link>
         </li>
       </ul>
     </>
