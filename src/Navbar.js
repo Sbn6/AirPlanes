@@ -5,29 +5,29 @@ const Navbar = () => {
     <>
       <ul class="nav justify-content-start" style={{userSelect:"none"}}>
         <li class="nav-item">
-          <a class="nav-link" href="/">
+        <Link to="/" class="nav-link">
             Home
-          </a>
+          </Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/legend">
+        <Link to="/legend" class="nav-link">
             Legendă
-          </a>
+          </Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/history">
+        <Link to="/history" class="nav-link">
             Istorie
-          </a>
+          </Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/helicopter">
+        <Link to="/helicopter" class="nav-link">
             Elicoptere
-          </a>
+          </Link>
         </li>
         <li class="nav-item" style={{marginLeft:"80rem"}}>
-          <a class="nav-link" href="/about">
+        <Link to="/about" class="nav-link">
             About
-          </a>
+          </Link>
         </li>
         <li class="nav-item">
           <a

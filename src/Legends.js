@@ -1,4 +1,5 @@
 import { useHistory } from "react-router-dom";
+import { Link } from "react-router-dom";
 const Legend = () => {
     const history = useHistory();
 return (
